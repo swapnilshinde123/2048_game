@@ -1,0 +1,277 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:lightsteelblue;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    position: static;
+    /* float: left; */
+    border-radius: 5px;
+    color: black;
+    font-size:6.5vh;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    vertical-align:middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+}
+table{
+margin-left: 630px;
+margin-top: -250px;
+background-color:lavender;
+float: left;
+box-shadow: 2px 0 20px 0px black;
+position: fixed;
+
+
+
+}
+body{
+    background-image: url("https://i.redd.it/rj1p80zlfuu21.jpg");
+    position: relative;
+    background-size: cover;
+    
+}
+
+   h2 {
+    font-style: italic;
+    color:white;
+  
+    margin-left: 290px;
+    font-size: 32px;
+    position: fixed;
+    margin-top: -10px;
+    
+   }
+   p{
+    margin-left: 230px; 
+    font-size: 17px;
+    font:bold;
+    position: fixed;
+    margin-top: 43px;
+   }
+   #rule{
+       font-size: 21px;
+       margin-left: 295px;
+       position: fixed;
+       margin-top: 190px;
+   }
+ #move{
+     margin-left:210px ;
+     position: fixed;
+     margin-top: 85px;
+ }
+.guide_arrow{
+    font-size: 50px;
+    margin-left: 10px;
+    
+   
+    
+}
+.arrows{
+    margin-left: 260px;
+   position: fixed;
+   margin-top: 110px;
+   position: fixed;
+    
+}
+  
+.controls_game-btn {
+    margin-bottom: 1rem;
+    padding: 0.5em 0.75em;
+    background: transparent;
+    color: black;
+    outline: 4px solid black;
+    appearance: none;
+    border: 5px solid transparent;
+    box-shadow: inset 0 28px 0px 3px #d4a8cf;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-left: 340px;
+    margin-top:10px ;
+    position: fixed;
+    height: 40px;
+    box-shadow: ;
+    
+   }
+   .controls_score {
+    display: inline-block;
+    min-width: 5em;
+    min-height: 2em;
+    margin-bottom: 4rem;
+    padding: 0.5em 0.75em;
+    background: #0706063b;
+    text-align: center;
+    background: linear-gradient(90deg, #f9d49a, #d4a8cf);
+    margin-left: 400px;
+    font-size: 23px;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Bangers', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+    
+
+   }
+   .controls_high_score {
+    display: inline-block;
+    min-width: 5em;
+    min-height: 2em;
+    margin-bottom: 4rem;
+    padding: 0.5em 0.75em;
+    background: #0000003b;
+    text-align: center;
+    background: linear-gradient(90deg, #f9d49a, #d4a8cf);
+   
+    font-size: 23px;
+    border-radius: 40px;
+   position: fixed;
+   margin-left: -340px;
+   margin-top: 100px;
+   font-family: 'Bangers', cursive;
+   font-family: 'Caveat', cursive;
+   font-family: 'Indie Flower', cursive;
+   font-family: 'Lobster', cursive;
+       
+
+   }
+   .intro_title{
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: 280px;
+    font-family: 'Permanent Marker', cursive;
+     color: black;
+     font-size: 3.8rem;
+     text-shadow: 3px 3px lightgray;
+    
+    }
+    #overlay{
+ 
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.9);
+        z-index: 2;
+        cursor: pointer;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("https://jdncampbell.com/wp-content/uploads/2019/04/2048thumb.png");
+    
+      }
+      #name{
+        font-size: 200px;
+        margin-top: 60px;
+        margin-left: 200px;
+        font-family: 'Finger Paint', cursive;
+      font-family: 'Irish Grover', cursive;
+      font-family: 'Permanent Marker', cursive;
+      
+      color: white;
+      
+      }
+
+
+
+
+#btn{
+   
+   color:white;
+  
+ 
+  float: left;
+  position: fixed;
+  margin-bottom: 20px;
+  font-size: 100px;
+ margin-left: 370px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 5px black;
+  
+ 
+
+}
+#btn1{
+   
+    color:white;
+   height: 10px;
+   width: 400px;
+   float: left;
+   position: fixed;
+   margin-bottom: 20px;
+   font-size: 70px;
+ margin-top: 400px;
+  margin-left: 430px;
+   font-family: 'Lobster', cursive;
+   text-shadow: 2px 2px gray;
+   
+  
+ 
+ }
+ 
+ 
+
+
+
+
+.blinking{
+    animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: yellow;    }
+    30%{color: indigo;}
+    49%{    color: lightgreen; }
+    55%{color: darkorange;}
+    60%{color: hotpink;}
+    70%{    color: skyblue;}
+    80%{    color: purple;}
+    99%{    color:pink;  }
+    100%{   color: gray;    }
+}
+#game_over{
+    font-size: 160px;
+ 
+   margin-top: 100px;
+  
+ 
+   
+    animation:blinkingText 1s infinite;
+   
+}
+#overlay1{
+ 
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 2;
+    cursor: pointer;
+    background-size: 1400px 640px;
+
+  }
+  #score{
+      display: flex;
+      margin-left: 45px;
+      margin-top: 10px;
+      
+  }
+  #hscore{
+      display: flex;
+    margin-left: 45px;
+    margin-top: 10px;
+  }
